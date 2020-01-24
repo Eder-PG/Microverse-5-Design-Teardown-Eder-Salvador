@@ -9,3 +9,28 @@
   height: 50px;
   background-color: #7cfc00;
 }
+
+body{
+  width: 100%;
+  min-width: 700px;
+  max-width: 1300px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  
+}
+
+.container-box-1{
+  align-content: center;
+}
+
+.writer-1{
+  box-sizing: border-box;
+  display: inline-block;  
+  width: 49%;
+  min-width: 350px;
+  height: 400px;
+}
+
