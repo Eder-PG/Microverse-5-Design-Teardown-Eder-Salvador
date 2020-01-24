@@ -192,19 +192,9 @@ nav {
   justify-content: space-between;
   flex-flow: row;
   flex-wrap: wrap;
-  margin-top: 5px;
   text-align: left;
   width: 98%;
   margin: 5px 10px;
-}
-
-.writer-2 {
-  box-sizing: border-box;
-  height: 250px;
-  width: 100%;
-  margin: 2px;
-  background-color: #7cfc00;
-  border: solid 1px black;
 }
 
 .writer-3 {
@@ -236,9 +226,50 @@ nav {
   background-color: blue;
 }
 
-.writter-pic {
+.writter-container {
+  width: 150px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.writer-2 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 100%;
+  margin: 2px;
+  background-color: #7cfc00;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-pic {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.writter-name2 {
+  background-color: red;
+  width: 200px;
+  height: 30px;
+}
+
+.p-writter {
+  background-color: green;
+  width: 650px;
+  height: 120px;
+}
+
+.text-container2 {
+  margin-left: 5px;
+  width: 650px;
+  height: 180px;
+  background: blue;
 }
 
 .text-container {
@@ -249,15 +280,14 @@ nav {
   vertical-align: middle;
 }
 
-.container-box-4{
+.container-box-4 {
   display: flex;
   justify-content: space-between;
   flex-flow: row;
   flex-wrap: wrap;
   text-align: left;
   width: 98%;
-  margin: 5px 10px;  
-
+  margin: 5px 10px;
 }
 
 .guides{
