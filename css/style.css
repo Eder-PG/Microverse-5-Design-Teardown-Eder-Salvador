@@ -28,7 +28,6 @@ body {
   padding-bottom: 15px;
 }
 
-.wrtitter-pic,
 .writter-pic {
   width: 70px;
   height: 70px;
@@ -79,6 +78,7 @@ nav {
 
 .container-box-1 {
   display: flex;
+  justify-content: space-between;
   flex-flow: row;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -88,6 +88,7 @@ nav {
 
 .container-box-2 {
   display: flex;
+  justify-content: space-between;
   flex-flow: row;
   flex-wrap: wrap;
   text-align: left;
@@ -170,6 +171,8 @@ nav {
 .article-8 {
   box-sizing: border-box;
   height: 900px;
+  width: 98%;
+  margin: 5px 10px;
   background-color: #7cfc00;
   border: solid 1px black;
   text-align: center;
@@ -186,17 +189,19 @@ nav {
 
 .container-box-3 {
   display: flex;
+  justify-content: space-between;
   flex-flow: row;
   flex-wrap: wrap;
   margin-top: 5px;
   text-align: left;
   width: 98%;
+  margin: 5px 10px;
 }
 
 .writer-2 {
   box-sizing: border-box;
   height: 250px;
-  width: 98%;
+  width: 100%;
   margin: 2px;
   background-color: #7cfc00;
   border: solid 1px black;
@@ -205,7 +210,7 @@ nav {
 .writer-3 {
   box-sizing: border-box;
   height: 280px;
-  width: 49%;
+  width: 49.6%;
   margin: 2px;
   background-color: #7cfc00;
   border: solid 1px black;
@@ -242,4 +247,136 @@ nav {
   background-color: lightcoral;
   width: 70%;
   vertical-align: middle;
+}
+
+.container-box-4{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 98%;
+  margin: 5px 10px;  
+
+}
+
+.guides{
+  width: 32.5%;
+  height: 400px;
+  margin: 2px;
+  background-color: #7cfc00;
+  border: solid 1px black;
+}
+
+.guides-subtitle{
+  box-sizing: border-box;
+  height: 15px;
+  width: 50px;
+  margin: 5%;
+  background-color: blueviolet;
+  border: solid 1px black;
+}
+
+.title-guide{
+  box-sizing: border-box;
+  height: 50px;
+  width: 90%;
+  margin: 5%;
+  background-color: blueviolet;
+  border: solid 1px black;
+}
+
+.guides ul{
+  margin: 10%;
+  font-size: 20px;
+}
+
+.smash-3{
+  width: 66%;
+  height: 400px;
+  margin: 2px;
+  background-color: #7cfc00;
+  border: solid 1px black;
+}
+
+.smash-picture{
+  width: 150px;
+  height: 150px;
+  margin: 2% auto;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.smash-title{
+  height: 30px;  
+  width: 70%;
+  margin: 2% 15%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.smash-description{
+  height: 60px;
+  width: 80%;
+  margin: 2% 10%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.smash-button{ 
+  height: 40px;
+  width: 50%;
+  margin: 2% 25%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+aside{
+  height: 600px;
+  width: 98%;
+  margin: 5px 10px;
+
+  background-color: #7cfc00;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.aside-subtitle{
+  height: 30px;
+  width: 40%;
+  margin: 3% 30%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.aside-topics{
+  height: 200px;
+  width: 80%;
+  margin: 3% 10%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.aside-credits{
+  height: 100px;
+  width: 40%;
+  margin: 3% 30%;
+
+  background-color: brown;
+  border: solid 1px black;
+}
+
+.aside-linkms{
+  height: 80px;
+  width: 50%;
+  margin: 3% 25%;
+
+  background-color: brown;
+  border: solid 1px black;
 }
