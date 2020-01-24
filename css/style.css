@@ -4,17 +4,60 @@
   background-color: #7cfc00;
 }
 
-.wrtitter-pic {
-  width: 50px;
-  height: 50px;
-  background-color: #7cfc00;
-}
-
-body{
+body {
   width: 100%;
   min-width: 700px;
-  max-width: 1300px;
-  
+  max-width: 1270px;
+  text-align: center;
+}
+
+.writer-1 {
+  display: inline-block;
+  width: 49.6%;
+  min-width: 350px;
+  height: 400px;
+  background-color: #7cfc00;
+  margin: 2px;
+  text-align: center;
+}
+
+.pic-name {
+  box-sizing: border-box;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.wrtitter-pic,
+.writter-pic {
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.writter-name {
+  width: 350px;
+  height: 50px;
+  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.article-title {
+  width: 430px;
+  height: 80px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.more-text {
+  margin-top: 5px;
+  width: 430px;
+  height: 20px;
+  background-color: blue;
+  display: inline-block;
 }
 
 nav {
@@ -23,77 +66,122 @@ nav {
   justify-content: space-around;
 }
 
-h1{
-  text-align: center;
-}
-
-.container-box-1{
-  text-align: center;
-}
-
-.writer-1 {
-  display: inline-block;
-  width: 49%;
-  min-width: 350px;
-  height: 400px;
+.title {
+  height: 50px;
   background-color: #7cfc00;
+  text-align: center;
+  margin-top: 10px;
+  width: 98%;
   box-sizing: border-box;
+  align-items: center;
+  display: inline-block;
+}
+
+.container-box-1 {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 5px 10px;
+  width: 98%;
 }
 
 .container-box-2 {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  margin-top: 5px;
   text-align: left;
-  margin-left: 11px;
+  width: 98%;
+  margin: 5px 10px;
 }
 
 .grid-article-1 {
   box-sizing: border-box;
-  width: 32.8%;
+  margin: 2px;
+  width: 32%;
   height: 400px;
   background-color: #7cfc00;
-  margin: 2px;
   border: solid 1px black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  padding: 25px;
+}
+
+.date {
+  background-color: blue;
+  height: 10px;
+  width: 20%;
+}
+
+.title-article {
+  background-color: blue;
+  height: 60px;
+  width: 50%;
+}
+
+.autor {
+  background-color: blue;
+  height: 25px;
+  width: 90px;
+}
+
+.p-preview {
+  background-color: blue;
+  height: 100px;
+  width: 100%;
 }
 
 .smash-1 {
   box-sizing: border-box;
-  width: 65.9%;
+  width: 65.2%;
   height: 400px;
   background-color: #7cfc00;
   margin: 2px;
   border: solid 1px black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
 }
 
 .smash-2 {
   box-sizing: border-box;
-  width: 66%;
+  width: 65.2%;
   height: 400px;
   background-color: #7cfc00;
   margin: 2px;
   border: solid 1px black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
 }
 
-.more-articles-1{
+.more-articles-1 {
   box-sizing: border-box;
-  height: 100px;   
-  background-color: #7cfc00;
-  margin: 2px 11px;
-  border: solid 1px black;
-  text-align: center;
-  padding-top: 42px;
-}
-
-.article-8{
-  box-sizing: border-box;
-  height: 900px;  
-  margin: 2px 11px;
-  margin-left: 11px;
+  height: 100px;
+  width: 25%;
+  margin-bottom: 5px;
+  display: inline-block;
   background-color: #7cfc00;
   border: solid 1px black;
   text-align: center;
+}
+
+.article-8 {
+  box-sizing: border-box;
+  height: 900px;
+  background-color: #7cfc00;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.promo-image {
+  margin: 150px;
+  width: 50%;
+  height: 600px;
+  background-color: blue;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .container-box-3 {
@@ -102,25 +190,56 @@ h1{
   flex-wrap: wrap;
   margin-top: 5px;
   text-align: left;
-  margin-left: 12px;
+  width: 98%;
 }
 
-.writer-2{
+.writer-2 {
   box-sizing: border-box;
   height: 250px;
   width: 98%;
   margin: 2px;
-
   background-color: #7cfc00;
   border: solid 1px black;
 }
 
-.writer-3{
+.writer-3 {
   box-sizing: border-box;
-  height: 250px;
+  height: 280px;
   width: 49%;
   margin: 2px;
-
   background-color: #7cfc00;
   border: solid 1px black;
+  text-align: center;
+}
+
+.autor-name2 {
+  width: 20%;
+  height: 18px;
+  background-color: blue;
+}
+
+.article-title2 {
+  width: 40%;
+  height: 18px;
+  background-color: orange;
+  margin-top: 5px;
+}
+
+.p-preview2 {
+  width: 90%;
+  height: 68px;
+  background-color: blue;
+}
+
+.writter-pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-container {
+  margin-top: 70px;
+  display: inline-block;
+  background-color: lightcoral;
+  width: 70%;
+  vertical-align: middle;
 }
