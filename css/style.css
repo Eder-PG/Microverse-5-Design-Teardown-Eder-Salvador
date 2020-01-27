@@ -7,13 +7,21 @@ body {
 }
 
 .menu-options {
-  width: 100px;
-  height: 60px;
+  height: 80px;
   background-color: #444;
   color: #fff;
   font-size: 16px;
   font-family: 'Sigmar One', cursive;
   padding-top: 7px;
+  text-align: center;
+  display: block;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  margin: auto;
 }
 
 h1 {
