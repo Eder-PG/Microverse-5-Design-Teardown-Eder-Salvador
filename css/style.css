@@ -1,0 +1,503 @@
+body {
+  width: 100%;
+  min-width: 700px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-options {
+  height: 80px;
+  background-color: #444;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Sigmar One', cursive;
+  padding-top: 7px;
+  text-align: center;
+  display: block;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  margin: auto;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  color: #fff;
+  margin: 0;
+}
+
+h3 {
+  color: #fff;
+  margin: 0;
+}
+
+h4 {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.writer-1 {
+  display: inline-block;
+  width: 50%;
+  min-width: 350px;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+}
+
+.gradient-box-1 {
+  background-color: #999;
+}
+
+.gradient-box-2 {
+  background-color: #777;
+}
+
+.pic-name {
+  box-sizing: border-box;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.writter-pic {
+  width: 70px;
+  height: 70px;
+  background-color: #666;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.writter-name {
+  width: 350px;
+  background-color: #666;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.article-title {
+  width: 500px;
+  padding-left: 10px;
+  background-color: #666;
+  display: inline-block;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+}
+
+.more-text {
+  margin-top: 5px;
+  width: 430px;
+  height: 20px;
+  background-color: #666;
+  display: inline-block;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #888;
+}
+
+.title {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(90deg, #999 50%, #777 50%);
+  margin: 0 0 -5px 0;
+}
+
+.main-title {
+  height: 100px;
+  width: 500px;
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Sigmar One', cursive;
+  font-size: 30px;
+}
+
+.main-title mark {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.container-box-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.container-box-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.grid-article-1 {
+  box-sizing: border-box;
+  margin: 2px 0;
+  width: 33.3%;
+  height: 400px;
+  background-color: #aaa;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  padding: 25px;
+}
+
+.date {
+  background-color: #888;
+  height: 10px;
+  width: 20%;
+}
+
+.title-article {
+  background-color: #888;
+  width: 70%;
+  color: #fff;
+  margin: 5px 0;
+  font-family: 'Fredoka One', cursive;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.autor {
+  background-color: #888;
+  height: 25px;
+  width: 190px;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.p-preview {
+  background-color: #888;
+  height: 100px;
+  width: 100%;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.smash-1 {
+  box-sizing: border-box;
+  width: 66.6%;
+  height: 400px;
+  background-color: #888;
+  margin: 2px 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.smash-2 {
+  box-sizing: border-box;
+  width: 65.2%;
+  height: 400px;
+  background-color: #888;
+  margin: 2px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.more-articles-1 {
+  box-sizing: border-box;
+  height: 100px;
+  width: 25%;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.article-8 {
+  box-sizing: border-box;
+  height: 900px;
+  width: 100%;
+  margin: 5px 0;
+  background-color: #444;
+  text-align: center;
+}
+
+.promo-image {
+  margin: 150px;
+  width: 50%;
+  height: 600px;
+  background-color: #111;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.container-box-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.writer-3 {
+  box-sizing: border-box;
+  height: 280px;
+  width: 49.6%;
+  margin: 2px;
+  background-color: #888;
+  text-align: center;
+}
+
+.autor-name2 {
+  width: 70%;
+  background-color: #666;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  padding-left: 5px;
+}
+
+.article-title2 {
+  width: 80%;
+  background-color: #666;
+  margin-top: 5px;
+  text-align: left;
+  font-family: 'Fredoka One', cursive;
+  padding-left: 5px;
+}
+
+.p-preview2 {
+  width: 90%;
+  background-color: #666;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.writter-container {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.writer-2 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 100%;
+  margin: 2px 0;
+  background-color: #666;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-pic {
+  width: 200px;
+  height: 200px;
+  background-color: #444;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.writter-name2 {
+  background-color: #444;
+  width: 200px;
+}
+
+.p-writter {
+  background-color: #444;
+  width: 650px;
+}
+
+.text-container2 {
+  margin-left: 5px;
+  width: 650px;
+  height: 180px;
+}
+
+.text-container {
+  margin-top: 70px;
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+
+.container-box-4 {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.guides {
+  width: 32.5%;
+  height: 400px;
+  margin: 2px;
+  background-color: #aaa;
+  text-align: center;
+}
+
+.guides-subtitle {
+  box-sizing: border-box;
+  height: 15px;
+  width: 50px;
+  margin: 5%;
+  background-color: #888;
+}
+
+.title-guide {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 5%;
+  background-color: #888;
+  font-family: 'Fredoka One', cursive;
+}
+
+.guides ul {
+  margin: 10%;
+  font-size: 20px;
+}
+
+.smash-3 {
+  width: 66%;
+  height: 400px;
+  margin: 2px;
+  background-color: #888;
+}
+
+.smash-picture {
+  width: 150px;
+  height: 150px;
+  margin: 2% auto;
+  background-color: #666;
+}
+
+.smash-title {
+  height: 30px;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #666;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.smash-description {
+  height: 60px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #666;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  padding: 5px;
+}
+
+.smash-button {
+  height: 40px;
+  width: 50%;
+  margin: 20px auto;
+  background-color: #666;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 30px;
+}
+
+aside {
+  height: 400px;
+  width: 100%;
+  margin: 5px 0;
+  padding-top: 10px;
+  background-color: #666;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.aside-subtitle {
+  box-sizing: border-box;
+  width: 40%;
+  margin: auto;
+  background-color: #444;
+  font-family: 'Fredoka One', cursive;
+}
+
+aside p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.aside-topics {
+  box-sizing: border-box;
+  margin: 3% 10%;
+  background-color: #444;
+  color: #fff;
+}
+
+.aside-topics p {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+.aside-credits {
+  box-sizing: border-box;
+  width: 40%;
+  margin: 3% 30%;
+  background-color: #444;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+.aside-linkms {
+  box-sizing: border-box;
+  width: 60%;
+  margin: 3% 20%;
+  background-color: #444;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+}
+
+.list {
+  box-sizing: border-box;
+  background-color: #888;
+  width: 220px;
+  display: inline-block;
+  font-family: 'EB Garamond', serif;
+  color: #fff;
+}
+
+.big-box-title {
+  visibility: hidden;
+}
