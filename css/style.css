@@ -1,7 +1,9 @@
 .menu-options {
   width: 100px;
-  height: 100px;
+  height: 60px;
   background-color: #444;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 body {
@@ -10,6 +12,32 @@ body {
   max-width: 1270px;
   text-align: center;
 }
+
+h1{
+  color: #ffffff;
+  margin: 0px;
+}
+
+h2{
+  color: #ffffff;
+  margin: 0px;
+}
+
+h3{
+  color: #ffffff;
+  margin: 0px;
+}
+
+h4{
+  color: #ffffff;
+  margin: 0px;
+}
+
+p{
+  margin-top: 30px;
+  color: #ffffff;
+}
+
 
 .writer-1 {
   display: inline-block;
@@ -38,17 +66,17 @@ body {
 
 .writter-name {
   width: 350px;
-  height: 50px;
   background-color: #666;
   display: inline-block;
   vertical-align: middle;
+  text-align: left;
 }
 
 .article-title {
   width: 430px;
-  height: 80px;
   background-color: #666;
   display: inline-block;
+  text-align: left;
 }
 
 .more-text {
@@ -70,10 +98,10 @@ nav {
   background-color: #111;
   text-align: center;
   margin-top: 10px;
-  width: 98%;
   box-sizing: border-box;
   align-items: center;
   display: inline-block;
+  color: #ffffff;
 }
 
 .container-box-1 {
@@ -117,14 +145,15 @@ nav {
 
 .title-article {
   background-color: #888;
-  height: 60px;
-  width: 50%;
+  width: 70%;
+  color: #ffffff;
+  margin: 5px 0;
 }
 
 .autor {
   background-color: #888;
   height: 25px;
-  width: 90px;
+  width: 190px;
 }
 
 .p-preview {
@@ -139,7 +168,6 @@ nav {
   height: 400px;
   background-color: #888;
   margin: 2px;
-  
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 1;
@@ -204,22 +232,23 @@ nav {
 }
 
 .autor-name2 {
-  width: 20%;
-  height: 18px;
+  width: 70%;
   background-color: #666;
+  text-align: left;
 }
 
 .article-title2 {
-  width: 40%;
-  height: 18px;
+  width: 80%;
   background-color: #666;
   margin-top: 5px;
+  text-align: left;
 }
 
 .p-preview2 {
   width: 90%;
-  height: 68px;
   background-color: #666;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .writter-container {
@@ -251,13 +280,11 @@ nav {
 .writter-name2 {
   background-color: #444;
   width: 200px;
-  height: 30px;
 }
 
 .p-writter {
   background-color: #444;
   width: 650px;
-  height: 120px;
 }
 
 .text-container2 {
@@ -273,6 +300,7 @@ nav {
   background-color: #aaa;
   width: 70%;
   vertical-align: middle;
+  padding-bottom: ;
 }
 
 .container-box-4 {
@@ -303,7 +331,6 @@ nav {
 
 .title-guide{
   box-sizing: border-box;
-  height: 50px;
   width: 90%;
   margin: 5%;
   background-color: #888;
@@ -318,7 +345,8 @@ nav {
   width: 66%;
   height: 400px;
   margin: 2px;
-  background-color: #888;  
+  background-color: #888;
+ 
 }
 
 .smash-picture{
@@ -332,14 +360,17 @@ nav {
   height: 30px;  
   width: 70%;
   margin: 2% 15%;
-  background-color: #666;  
+  background-color: #666;
+  text-align: center;
+
 }
 
 .smash-description{
   height: 60px;
   width: 80%;
   margin: 2% 10%;
-  background-color: #666;  
+  background-color: #666; 
+  text-align: center; 
 }
 
 .smash-button{ 
@@ -347,48 +378,47 @@ nav {
   width: 50%;
   margin: 2% 25%;
   background-color: #666;  
+  text-align: center;
 }
 
 aside{
-  height: 600px;
+  height: 400px;
   width: 98%;
   margin: 5px 10px;
-
+  padding-top: 10px;
   background-color: #666;
   text-align: center;
 }
 
 .aside-subtitle{
   box-sizing: border-box;
-  height: 30px;
-  width: 40%;  
-  margin: 3% 30%;
+  width: 40%;
+  margin: auto;
   background-color: #444;
+}
+aside p{
+  color: #ffffff;
+  font-size: 24px;
 }
 
 .aside-topics{
   box-sizing: border-box;
-  height: 200px;
-  width: 80%;
   margin: 3% 10%;
   background-color: #444;
+  color: #ffffff; 
 }
 
 .aside-credits{
   box-sizing: border-box;
-  height: 100px;
   width: 40%;
   margin: 3% 30%;
-
   background-color: #444;
 }
 
 .aside-linkms{
   box-sizing: border-box;
-  height: 80px;
   width: 50%;
   margin: 3% 25%;
-
   background-color: #444;
 }
 
@@ -396,6 +426,6 @@ aside{
   box-sizing: border-box;
   background-color: #888;
   width: 220px;
-  height: 120px;
   display: inline-block;
+
 }
