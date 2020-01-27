@@ -1,7 +1,7 @@
 .menu-options {
   width: 100px;
   height: 100px;
-  background-color: #7cfc00;
+  background-color: #444;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   width: 49.6%;
   min-width: 350px;
   height: 400px;
-  background-color: #7cfc00;
+  background-color: #888;
   margin: 2px;
   text-align: center;
 }
@@ -31,7 +31,7 @@ body {
 .writter-pic {
   width: 70px;
   height: 70px;
-  background-color: orange;
+  background-color: #666;
   display: inline-block;
   vertical-align: middle;
 }
@@ -39,7 +39,7 @@ body {
 .writter-name {
   width: 350px;
   height: 50px;
-  background-color: orange;
+  background-color: #666;
   display: inline-block;
   vertical-align: middle;
 }
@@ -47,7 +47,7 @@ body {
 .article-title {
   width: 430px;
   height: 80px;
-  background-color: blue;
+  background-color: #666;
   display: inline-block;
 }
 
@@ -55,7 +55,7 @@ body {
   margin-top: 5px;
   width: 430px;
   height: 20px;
-  background-color: blue;
+  background-color: #666;
   display: inline-block;
 }
 
@@ -67,7 +67,7 @@ nav {
 
 .title {
   height: 50px;
-  background-color: #7cfc00;
+  background-color: #111;
   text-align: center;
   margin-top: 10px;
   width: 98%;
@@ -101,8 +101,8 @@ nav {
   margin: 2px;
   width: 32%;
   height: 400px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #aaa;
+  
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 1;
@@ -110,25 +110,25 @@ nav {
 }
 
 .date {
-  background-color: blue;
+  background-color: #888;
   height: 10px;
   width: 20%;
 }
 
 .title-article {
-  background-color: blue;
+  background-color: #888;
   height: 60px;
   width: 50%;
 }
 
 .autor {
-  background-color: blue;
+  background-color: #888;
   height: 25px;
   width: 90px;
 }
 
 .p-preview {
-  background-color: blue;
+  background-color: #888;
   height: 100px;
   width: 100%;
 }
@@ -137,9 +137,9 @@ nav {
   box-sizing: border-box;
   width: 65.2%;
   height: 400px;
-  background-color: #7cfc00;
+  background-color: #888;
   margin: 2px;
-  border: solid 1px black;
+  
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 1;
@@ -149,9 +149,8 @@ nav {
   box-sizing: border-box;
   width: 65.2%;
   height: 400px;
-  background-color: #7cfc00;
-  margin: 2px;
-  border: solid 1px black;
+  background-color: #888;
+  margin: 2px; 
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 1;
@@ -163,8 +162,7 @@ nav {
   width: 25%;
   margin-bottom: 5px;
   display: inline-block;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #ccc;
   text-align: center;
 }
 
@@ -173,8 +171,7 @@ nav {
   height: 900px;
   width: 98%;
   margin: 5px 10px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #444;
   text-align: center;
 }
 
@@ -182,7 +179,7 @@ nav {
   margin: 150px;
   width: 50%;
   height: 600px;
-  background-color: blue;
+  background-color: #111;
   display: inline-block;
   box-sizing: border-box;
 }
@@ -202,28 +199,27 @@ nav {
   height: 280px;
   width: 49.6%;
   margin: 2px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #888;
   text-align: center;
 }
 
 .autor-name2 {
   width: 20%;
   height: 18px;
-  background-color: blue;
+  background-color: #666;
 }
 
 .article-title2 {
   width: 40%;
   height: 18px;
-  background-color: orange;
+  background-color: #666;
   margin-top: 5px;
 }
 
 .p-preview2 {
   width: 90%;
   height: 68px;
-  background-color: blue;
+  background-color: #666;
 }
 
 .writter-container {
@@ -237,8 +233,7 @@ nav {
   height: 250px;
   width: 100%;
   margin: 2px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #666;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -248,19 +243,19 @@ nav {
 .person-pic {
   width: 200px;
   height: 200px;
-  background-color: orange;
+  background-color: #444;
   display: inline-block;
   vertical-align: middle;
 }
 
 .writter-name2 {
-  background-color: red;
+  background-color: #444;
   width: 200px;
   height: 30px;
 }
 
 .p-writter {
-  background-color: green;
+  background-color: #444;
   width: 650px;
   height: 120px;
 }
@@ -269,13 +264,13 @@ nav {
   margin-left: 5px;
   width: 650px;
   height: 180px;
-  background: blue;
+  background: #888;
 }
 
 .text-container {
   margin-top: 70px;
   display: inline-block;
-  background-color: lightcoral;
+  background-color: #aaa;
   width: 70%;
   vertical-align: middle;
 }
@@ -294,8 +289,7 @@ nav {
   width: 32.5%;
   height: 400px;
   margin: 2px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #aaa;
   text-align: center;
 }
 
@@ -304,8 +298,7 @@ nav {
   height: 15px;
   width: 50px;
   margin: 5%;
-  background-color: blueviolet;
-  border: solid 1px black;
+  background-color: #888;
 }
 
 .title-guide{
@@ -313,8 +306,7 @@ nav {
   height: 50px;
   width: 90%;
   margin: 5%;
-  background-color: blueviolet;
-  border: solid 1px black;
+  background-color: #888;
 }
 
 .guides ul{
@@ -326,44 +318,35 @@ nav {
   width: 66%;
   height: 400px;
   margin: 2px;
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #888;  
 }
 
 .smash-picture{
   width: 150px;
   height: 150px;
   margin: 2% auto;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #666;  
 }
 
 .smash-title{
   height: 30px;  
   width: 70%;
   margin: 2% 15%;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #666;  
 }
 
 .smash-description{
   height: 60px;
   width: 80%;
   margin: 2% 10%;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #666;  
 }
 
 .smash-button{ 
   height: 40px;
   width: 50%;
   margin: 2% 25%;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #666;  
 }
 
 aside{
@@ -371,49 +354,47 @@ aside{
   width: 98%;
   margin: 5px 10px;
 
-  background-color: #7cfc00;
-  border: solid 1px black;
+  background-color: #666;
   text-align: center;
 }
 
 .aside-subtitle{
+  box-sizing: border-box;
   height: 30px;
-  width: 40%;
+  width: 40%;  
   margin: 3% 30%;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #444;
 }
 
 .aside-topics{
+  box-sizing: border-box;
   height: 200px;
   width: 80%;
   margin: 3% 10%;
-
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #444;
 }
 
 .aside-credits{
+  box-sizing: border-box;
   height: 100px;
   width: 40%;
   margin: 3% 30%;
 
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #444;
 }
 
 .aside-linkms{
+  box-sizing: border-box;
   height: 80px;
   width: 50%;
   margin: 3% 25%;
 
-  background-color: brown;
-  border: solid 1px black;
+  background-color: #444;
 }
 
 .list {
-  background-color: blue;
+  box-sizing: border-box;
+  background-color: #888;
   width: 220px;
   height: 120px;
   display: inline-block;
