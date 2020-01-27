@@ -3,6 +3,7 @@ body {
   min-width: 700px;
   max-width: 1270px;
   text-align: center;
+  margin: 0;
 }
 
 .menu-options {
@@ -42,11 +43,11 @@ p {
 
 .writer-1 {
   display: inline-block;
-  width: 49.6%;
+  width: 50%;
   min-width: 350px;
   height: 400px;
   background-color: #888;
-  margin: 2px;
+  margin: 0;
   text-align: center;
 }
 
@@ -120,8 +121,8 @@ nav {
   flex-flow: row;
   flex-wrap: wrap;
   box-sizing: border-box;
-  margin: 5px 10px;
-  width: 98%;
+  margin: 5px 0;
+  width: 101%;
 }
 
 .container-box-2 {
@@ -130,14 +131,14 @@ nav {
   flex-flow: row;
   flex-wrap: wrap;
   text-align: left;
-  width: 98%;
-  margin: 5px 10px;
+  width: 101%;
+  margin: 5px 0;
 }
 
 .grid-article-1 {
   box-sizing: border-box;
-  margin: 2px;
-  width: 32%;
+  margin: 2px 0;
+  width: 33.3%;
   height: 400px;
   background-color: #aaa;
   flex-grow: 1;
@@ -182,10 +183,10 @@ nav {
 
 .smash-1 {
   box-sizing: border-box;
-  width: 65.2%;
+  width: 66.6%;
   height: 400px;
   background-color: #888;
-  margin: 2px;
+  margin: 2px 0;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 1;
@@ -215,8 +216,8 @@ nav {
 .article-8 {
   box-sizing: border-box;
   height: 900px;
-  width: 98%;
-  margin: 5px 10px;
+  width: 101%;
+  margin: 5px 0;
   background-color: #444;
   text-align: center;
 }
